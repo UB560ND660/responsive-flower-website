@@ -421,18 +421,23 @@
 
     /* our-plants section  */
 
-    .our-plants-heading {
+    .our-plants-heading h2 {
         margin: 20px;
+        font-size: 32px;
     }
 
     .our-plants-heading p {
-        max-width: 100%;
+        max-width: 80%;
+        margin: 20px auto;
+        margin-bottom: 0px;
+        font-size: 15px;
     }
 
     .our-plants-cards {
         grid-template-columns: repeat(2, 1fr);
         max-width: 100%;
         gap: 10px;
+        margin-top: 0px;
     }
 
     .card img {
@@ -452,12 +457,13 @@
     }
 
     .flower-and-plant-lovers-right-side h2 {
-        font-size: 28px;
+        font-size: 25px;
         margin: 0;
     }
 
+
     .flower-and-plant-lovers-right-side ul li {
-        font-size: 18px;
+        font-size: 16px;
         margin: 13px;
     }
 
@@ -472,7 +478,12 @@
     }
 
     .latest-deals h2 {
+        font-size: 30px;
         margin-bottom: 20px;
+    }
+
+    .latest-deals p {
+        font-size: 15px;
     }
 
     .images-of-latest-deals {
@@ -496,7 +507,7 @@
     /* join the color bunch */
 
     .join-the-colorful-bunch {
-        padding: 60px 0;
+        padding: 100px 0;
     }
 
     .join-the-colorful-bunch h2 {
@@ -515,4 +526,18 @@
         background-color: rgb(233, 90, 8, 1);
         font-size: 17px;
     }
+
+    .final-footer {
+        flex-direction: column;
+    }
+
+    .box-1 {
+        margin-top: 50px;
+    }
+
+    .box-4 {
+        justify-content: start;
+        gap: 30px;
+    }
+
 }
