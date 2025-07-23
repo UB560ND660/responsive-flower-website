@@ -146,6 +146,7 @@
 }
 
 .card-info p {
+    font-size: 20px;
     font-weight: 700;
 }
 
@@ -211,9 +212,9 @@
 }
 
 .latest-deals p {
-    font-size: 19px;
+    font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
-    width: 80%;
+    width: 70%;
     margin: 20px auto;
 }
 
@@ -234,8 +235,8 @@
 }
 
 .latest-deals-image-sub-card-1 {
-    background: radial-gradient(rgba(33, 33, 33, 0.248),
-            rgba(0, 0, 0, 0.257)), url('../assets/deal-bloom.png');
+    background: radial-gradient(rgba(33, 33, 33, 0.33),
+            rgba(0, 0, 0, 0.351)), url('../assets/deal-bloom.png');
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -256,8 +257,8 @@
 
 
 .latest-deals-image-sub-card-2 {
-    background: radial-gradient(rgba(33, 33, 33, 0.248),
-            rgba(0, 0, 0, 0.257)), url('../assets/deal-ana.png');
+    background: radial-gradient(rgba(33, 33, 33, 0.33),
+            rgba(0, 0, 0, 0.351)), url('../assets/deal-ana.png');
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -282,8 +283,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: radial-gradient(rgba(33, 33, 33, 0.248),
-            rgba(0, 0, 0, 0.257)), url('../assets/deal-zabo.png');
+    background: radial-gradient(rgba(33, 33, 33, 0.33),
+            rgba(0, 0, 0, 0.351)), url('../assets/deal-zabo.png');
     background-size: cover;
     background-position: center;
     color: #fff;
