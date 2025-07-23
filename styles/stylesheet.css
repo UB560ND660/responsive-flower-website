@@ -114,6 +114,8 @@
 .our-plants-heading p {
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
+    width: 70%;
+    margin: 0 auto;
 }
 
 .our-plants-cards {
