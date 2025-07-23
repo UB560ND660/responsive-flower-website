@@ -333,6 +333,7 @@
     padding-left: 30px;
     padding-right: 320px;
     border: none;
+    width: 100%;
 }
 
 .Subscribe-btn {
@@ -521,11 +522,12 @@
     }
 
     .join-the-colorful-bunch-input-feild input {
-        padding: 10px 15px;
+        padding: 10px 20px;
+        font-size: 1rem;
     }
 
     .Subscribe-btn {
-        padding: 10px 40px;
+        padding: 10px 20px;
         border: none;
         color: #fff;
         background-color: rgb(233, 90, 8, 1);
