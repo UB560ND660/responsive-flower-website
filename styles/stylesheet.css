@@ -54,6 +54,7 @@
 .nav-options ul li a {
     text-decoration: none;
     color: black;
+    font-size: 17px;
 }
 
 .nav-options ul li:nth-child(1) a {
@@ -63,6 +64,10 @@
 .nav-options ul li:nth-child(2) a,
 .nav-options ul li:nth-child(3) a {
     color: rgba(137, 135, 161, 1);
+}
+
+.nav-options ul li:nth-child(4) a {
+    font-size: 20px;
 }
 
 .cart {
@@ -150,6 +155,145 @@
     color: #fff;
 }
 
+/* flower-and-plant-lovers */
+
+.flower-and-plant-lovers {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin: 200px 0;
+    position: relative;
+}
+
+.trusted-badge img {
+    width: 35%;
+}
+
+.flower-and-plant-lovers-left-side {
+    position: relative;
+}
+
+.trusted-badge {
+    position: absolute;
+    top: -170px;
+    left: 340px;
+}
+
+.flower-and-plant-lovers h2 {
+    font-size: 50px;
+    margin: 10px 0;
+}
+
+.flower-and-plant-lovers ul {
+    padding: 20px;
+}
+
+.flower-and-plant-lovers ul li {
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 20px 0;
+}
+
+.flower-and-plant-lovers-right-side {
+    margin: 10px 0;
+}
+
+/* latest-deals  */
+.latest-deals {
+    margin-bottom: 90px;
+    text-align: center;
+}
+
+.latest-deals h2 {
+    font-size: 50px;
+}
+
+.latest-deals p {
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* lastest-deals-card  */
+.images-of-latest-deals {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 120px;
+}
+
+.latest-deals-image-cards-left {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.latest-deals-image-sub-card-1 {
+    background: url('../assets/deal-bloom.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 90px;
+    border-radius: 10px;
+}
+
+.latest-deals-image-sub-card-1 h2 {
+    margin: 10px 0;
+    font-size: 21px;
+}
+
+.latest-deals-image-sub-card-1 a {
+    color: white;
+    font-size: 16px;
+}
+
+
+.latest-deals-image-sub-card-2 {
+    background: url('../assets/deal-ana.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 60px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.latest-deals-image-sub-card-2 h2 {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.latest-deals-image-sub-card-2 a {
+    color: white;
+    font-size: 16px;
+}
+
+.latest-deals-image-cards-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url('../assets/deal-zabo.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.latest-deals-image-cards-right h2 {
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+.latest-deals-image-cards-right a {
+    font-size: 28px;
+    color: white;
+}
+
+
 /* responsive for mobile  */
 
 @media screen and (max-width:576px) {
@@ -169,6 +313,7 @@
     /* banner  */
     .banner {
         flex-direction: column-reverse;
+        margin-bottom: 100px;
     }
 
     .banner-right {
@@ -182,5 +327,79 @@
     .banner-left p {
         font-size: 18px;
         max-width: 100%;
+    }
+
+    /* our-plants section  */
+
+    .our-plants-heading {
+        margin: 20px;
+    }
+
+    .our-plants-heading p {
+        max-width: 100%;
+    }
+
+    .our-plants-cards {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 100%;
+        gap: 10px;
+    }
+
+    .card img {
+        width: 100%;
+    }
+
+
+    /*  flower-and-plant-lovers*/
+    .trusted-badge {
+        display: none;
+    }
+
+    .flower-and-plant-lovers {
+        flex-direction: column;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .flower-and-plant-lovers-right-side h2 {
+        font-size: 28px;
+        margin: 0;
+    }
+
+    .flower-and-plant-lovers-right-side ul li {
+        font-size: 18px;
+        margin: 13px;
+    }
+
+    .flower-and-plant-lovers-right-side ul {
+        padding: 5px;
+    }
+
+    /* latest deals  */
+
+    .latest-deals {
+        margin-bottom: 20px;
+    }
+
+    .latest-deals h2 {
+        margin-bottom: 20px;
+    }
+
+    .images-of-latest-deals {
+        grid-template-columns: 1fr;
+    }
+
+    .latest-deals-image-cards-right {
+        padding: 70px;
+    }
+
+    .latest-deals-image-sub-card-1 h2,
+    .latest-deals-image-sub-card-2 h2,
+    .latest-deals-image-cards-right h2 {
+        font-size: 20px;
+    }
+
+    .latest-deals-image-cards-right a {
+        font-size: 18px;
     }
 }
