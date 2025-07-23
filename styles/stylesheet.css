@@ -390,6 +390,10 @@
 
 @media screen and (max-width:576px) {
 
+    img {
+        max-width: 100%;
+    }
+
     /* nav  */
     .nav-options ul li:nth-child(1) a,
     .nav-options ul li:nth-child(2) a,
@@ -398,7 +402,6 @@
     }
 
     .container {
-        max-width: 500px;
         margin: 10px auto;
     }
 
@@ -443,7 +446,7 @@
     }
 
     .card img {
-        width: 100%;
+        max-width: 100%;
     }
 
 
@@ -518,7 +521,7 @@
     }
 
     .join-the-colorful-bunch-input-feild input {
-        padding: 10px 40px;
+        padding: 10px 15px;
     }
 
     .Subscribe-btn {
