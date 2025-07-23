@@ -5,10 +5,14 @@
     box-sizing: border-box;
 }
 
+/* container-for-pc  */
 .container {
     max-width: 1280px;
     margin: 0 auto;
 }
+
+/* container for mobile */
+
 
 .ash-color {
     color: rgba(137, 135, 161, 1);
@@ -31,11 +35,7 @@
 
 .noto-sans-font {
     font-family: "Noto Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
 }
-
-/* header and banner section */
 
 /* navbar */
 
@@ -70,3 +70,117 @@
 }
 
 /* banner-section  */
+.banner {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    margin: 150px 0;
+}
+
+.banner-left h2 {
+    font-size: 65px;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+.banner-left p {
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+    max-width: 80%;
+}
+
+.banner-right img {
+    display: block;
+}
+
+/* our-plants section  */
+.our-plants-heading {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.our-plants-heading h2 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 22px;
+}
+
+.our-plants-heading p {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.our-plants-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px 20px;
+}
+
+.our-plants-cards .card {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.card img {
+    height: auto;
+}
+
+.card {
+    text-align: center;
+}
+
+.card .card-info {
+    margin: 20px 0;
+}
+
+.card-info h3 {
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.card-info p {
+    font-weight: 700;
+}
+
+.card .add-to-card-btn {
+    padding: 15px;
+    border: none;
+    background-color: rgba(233, 90, 8, 1);
+    color: #fff;
+}
+
+/* responsive for mobile  */
+
+@media screen and (max-width:576px) {
+
+    /* nav  */
+    .nav-options ul li:nth-child(1) a,
+    .nav-options ul li:nth-child(2) a,
+    .nav-options ul li:nth-child(3) a {
+        display: none;
+    }
+
+    .container {
+        max-width: 500px;
+        margin: 10px auto;
+    }
+
+    /* banner  */
+    .banner {
+        flex-direction: column-reverse;
+    }
+
+    .banner-right {
+        margin-bottom: 40px;
+    }
+
+    .banner-left h2 {
+        font-size: 34px;
+    }
+
+    .banner-left p {
+        font-size: 18px;
+        max-width: 100%;
+    }
+}
