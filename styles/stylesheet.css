@@ -1,0 +1,72 @@
+/* common css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.ash-color {
+    color: rgba(137, 135, 161, 1);
+}
+
+.orange-color {
+    color: rgba(233, 90, 8, 1);
+}
+
+.common-colour {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* font  */
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.noto-sans-font {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* header and banner section */
+
+/* navbar */
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-options ul {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+}
+
+.nav-options ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-options ul li:nth-child(1) a {
+    font-weight: bold;
+}
+
+.nav-options ul li:nth-child(2) a,
+.nav-options ul li:nth-child(3) a {
+    color: rgba(137, 135, 161, 1);
+}
+
+.cart {
+    font-size: 18px;
+}
+
+/* banner-section  */
