@@ -333,7 +333,6 @@
     padding-left: 30px;
     padding-right: 320px;
     border: none;
-    width: 100%;
 }
 
 .Subscribe-btn {
@@ -396,6 +395,11 @@
     }
 
     /* nav  */
+
+    .nav-bar {
+        padding-left: 30px;
+    }
+
     .nav-options ul li:nth-child(1) a,
     .nav-options ul li:nth-child(2) a,
     .nav-options ul li:nth-child(3) a {
@@ -410,6 +414,7 @@
     .banner {
         flex-direction: column-reverse;
         margin-bottom: 100px;
+        padding: 15px;
     }
 
     .banner-right {
@@ -460,6 +465,7 @@
         flex-direction: column;
         margin-top: 40px;
         margin-bottom: 40px;
+        padding: 10px;
     }
 
     .flower-and-plant-lovers-right-side h2 {
@@ -494,6 +500,7 @@
 
     .images-of-latest-deals {
         grid-template-columns: 1fr;
+        padding: 10px;
     }
 
     .latest-deals-image-cards-right {
@@ -522,7 +529,7 @@
     }
 
     .join-the-colorful-bunch-input-feild input {
-        padding: 10px 20px;
+        padding: 10px 10px;
         font-size: 1rem;
     }
 
@@ -536,6 +543,7 @@
 
     .final-footer {
         flex-direction: column;
+        padding: 10px;
     }
 
     .box-1 {
