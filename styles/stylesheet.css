@@ -397,8 +397,7 @@
     /* nav  */
 
     .nav-bar {
-        padding-left: 30px;
-        padding-right: 20px;
+        padding: 10px;
     }
 
     .nav-options ul li:nth-child(1) a,
