@@ -418,6 +418,10 @@
         display: none;
     }
 
+    .nav-options ul li:nth-child(4) a {
+        font-size: 18px;
+    }
+
     .container {
         margin: 10px auto;
     }
