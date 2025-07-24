@@ -404,6 +404,10 @@
 
     /* nav  */
 
+    .primary-logo {
+        width: 85px;
+    }
+
     .nav-bar {
         padding: 10px;
     }
