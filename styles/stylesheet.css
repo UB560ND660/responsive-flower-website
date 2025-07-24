@@ -435,7 +435,7 @@
         margin-top: 0;
         flex-direction: column-reverse;
         margin-bottom: 100px;
-        padding: 15px;
+
     }
 
     .banner-right {
@@ -444,11 +444,13 @@
 
     .banner-left h2 {
         font-size: 34px;
+        padding: 15px;
     }
 
     .banner-left p {
         font-size: 18px;
         max-width: 100%;
+        padding: 15px;
     }
 
     /* our-plants section  */
