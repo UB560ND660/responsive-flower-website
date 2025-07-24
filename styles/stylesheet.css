@@ -420,6 +420,7 @@
 
     /* banner  */
     .banner {
+        margin-top: 0;
         flex-direction: column-reverse;
         margin-bottom: 100px;
         padding: 15px;
@@ -446,7 +447,7 @@
     }
 
     .our-plants-heading p {
-        max-width: 80%;
+        max-width: 100%;
         margin: 20px auto;
         margin-bottom: 0px;
         font-size: 15px;
@@ -513,6 +514,7 @@
 
     .latest-deals-image-cards-right {
         padding: 70px;
+        margin-top: 10px;
     }
 
     .latest-deals-image-sub-card-1 h2,
